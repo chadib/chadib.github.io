@@ -1,15 +1,15 @@
 <svg width="512" height="512" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg">
-<g stroke="currentColor" stroke-width="22" stroke-linecap="round">
-<path d="M256 246C212 204 180 162 159 112"/>
-<path d="M256 246C234 194 228 146 233 88"/>
-<path d="M256 246C277 194 296 150 332 103"/>
-<path d="M256 246C302 213 344 184 398 166"/>
-<path d="M256 246C307 260 352 283 398 322"/>
-<path d="M256 246C287 292 311 337 320 405"/>
-<path d="M256 246C232 297 211 345 189 415"/>
-<path d="M256 246C206 270 162 297 112 346"/>
+<g stroke="currentColor" stroke-linecap="round" fill="none">
+  <path d="M258 252C216 218 181 173 158 112" stroke-width="20"/>
+  <path d="M268 246C254 191 258 142 282 88" stroke-width="19"/>
+  <path d="M278 247C313 204 351 171 407 146" stroke-width="20"/>
+  <path d="M288 256C342 249 387 257 436 286" stroke-width="19"/>
+  <path d="M283 268C329 300 364 340 389 397" stroke-width="20"/>
+  <path d="M272 276C282 330 278 378 258 430" stroke-width="19"/>
+  <path d="M258 274C221 318 187 355 134 385" stroke-width="20"/>
+  <path d="M250 262C198 267 153 254 96 225" stroke-width="19"/>
 </g>
-<circle cx="256" cy="246" r="66" fill="none" stroke="currentColor" stroke-opacity="0.28" stroke-width="2"/>
-<circle cx="256" cy="246" r="38" fill="currentColor"/>
-<circle cx="244" cy="232" r="8" fill="white" fill-opacity="0.82"/>
+<circle cx="270" cy="260" r="67" fill="none" stroke="currentColor" stroke-opacity=".22" stroke-width="2"/>
+<circle cx="270" cy="260" r="38" fill="currentColor"/>
+<circle cx="257" cy="246" r="7.5" fill="white" fill-opacity=".9"/>
 </svg>
