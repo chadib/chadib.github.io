@@ -6,13 +6,26 @@
     <stop offset="0.72" stop-color="#2D8CFF"/>
     <stop offset="1" stop-color="#4FE8E0"/>
   </linearGradient>
+  <radialGradient id="head" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(226 117) rotate(49) scale(190 164)">
+    <stop stop-color="#F5F7FA" stop-opacity=".72"/>
+    <stop offset=".13" stop-color="#A450FF" stop-opacity=".92"/>
+    <stop offset=".48" stop-color="#6E5CFF" stop-opacity=".92"/>
+    <stop offset=".78" stop-color="#2D8CFF" stop-opacity=".88"/>
+    <stop offset="1" stop-color="#172044"/>
+  </radialGradient>
+  <radialGradient id="nucleus" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(252 164) rotate(90) scale(18)">
+    <stop stop-color="#F5F7FA"/>
+    <stop offset=".30" stop-color="#4FE8E0"/>
+    <stop offset="1" stop-color="#6E5CFF"/>
+  </radialGradient>
   <filter id="glow" x="-40%" y="-40%" width="180%" height="180%">
     <feGaussianBlur stdDeviation="5" result="blur"/>
     <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
   </filter>
 </defs>
+<path d="M256 82C309 82 340 119 335 166C332 199 317 225 293 244C281 253 273 264 270 280H242C239 264 231 253 219 244C195 225 180 199 177 166C172 119 203 82 256 82Z" fill="url(#head)"/>
+<path d="M214 120C232 98 274 94 303 108" stroke="#F5F7FA" stroke-opacity=".35" stroke-width="8" stroke-linecap="round"/>
 <g stroke="url(#flow)" fill="none" stroke-linecap="round" stroke-linejoin="round" filter="url(#glow)">
-  <path d="M256 78C305 78 333 112 322 151C312 186 278 205 256 239C234 205 200 186 190 151C179 112 207 78 256 78Z" stroke-width="24"/>
   <path d="M221 224C190 219 177 193 151 190C125 187 105 204 108 229C111 251 136 262 155 247" stroke-width="22"/>
   <path d="M217 244C181 249 164 273 136 276C108 279 88 298 96 323C104 347 134 351 154 331" stroke-width="22"/>
   <path d="M225 264C194 281 181 309 157 326C133 343 132 370 153 384C174 398 199 386 208 363" stroke-width="21"/>
@@ -22,6 +35,6 @@
   <path d="M287 264C318 281 331 309 355 326C379 343 380 370 359 384C338 398 313 386 304 363" stroke-width="21"/>
   <path d="M273 276C292 307 299 340 294 374C290 403 270 423 249 416C228 409 224 383 233 359" stroke-width="20"/>
 </g>
-<circle cx="256" cy="146" r="10" fill="#F5F7FA"/>
-<circle cx="256" cy="146" r="4" fill="#4FE8E0"/>
+<circle cx="256" cy="166" r="12" fill="url(#nucleus)"/>
+<circle cx="252" cy="162" r="3" fill="#F5F7FA"/>
 </svg>

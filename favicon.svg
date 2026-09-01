@@ -7,9 +7,16 @@
     <stop offset=".72" stop-color="#2D8CFF"/>
     <stop offset="1" stop-color="#4FE8E0"/>
   </linearGradient>
+  <radialGradient id="head" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(228 126) rotate(50) scale(177 153)">
+    <stop stop-color="#F5F7FA" stop-opacity=".72"/>
+    <stop offset=".14" stop-color="#A450FF"/>
+    <stop offset=".50" stop-color="#6E5CFF"/>
+    <stop offset=".82" stop-color="#2D8CFF"/>
+    <stop offset="1" stop-color="#172044"/>
+  </radialGradient>
 </defs>
+<path d="M256 88C304 88 332 121 328 164C325 195 311 218 289 236C279 244 272 254 269 268H243C240 254 233 244 223 236C201 218 187 195 184 164C180 121 208 88 256 88Z" fill="url(#head)"/>
 <g stroke="url(#g)" fill="none" stroke-linecap="round" stroke-linejoin="round">
-  <path d="M256 88C300 88 325 118 315 153C305 184 276 201 256 231C236 201 207 184 197 153C187 118 212 88 256 88Z" stroke-width="25"/>
   <path d="M224 223C194 219 181 197 157 194C133 191 115 207 118 229C121 249 143 258 161 244" stroke-width="22"/>
   <path d="M220 244C187 249 171 271 145 274C119 277 101 295 109 318C117 341 144 344 163 326" stroke-width="22"/>
   <path d="M229 264C200 280 188 306 166 321C143 337 142 362 161 375C180 388 203 377 212 356" stroke-width="21"/>
@@ -19,6 +26,6 @@
   <path d="M283 264C312 280 324 306 346 321C369 337 370 362 351 375C332 388 309 377 300 356" stroke-width="21"/>
   <path d="M271 277C288 305 295 335 290 365C286 391 268 409 249 403C230 397 226 374 234 352" stroke-width="20"/>
 </g>
-<circle cx="256" cy="151" r="9" fill="#F5F7FA"/>
-<circle cx="256" cy="151" r="4" fill="#4FE8E0"/>
+<circle cx="256" cy="165" r="10" fill="#4FE8E0"/>
+<circle cx="253" cy="162" r="3" fill="#F5F7FA"/>
 </svg>
