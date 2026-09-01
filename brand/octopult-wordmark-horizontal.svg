@@ -1,0 +1,31 @@
+<svg width="1400" height="360" viewBox="0 0 1400 360" fill="none" xmlns="http://www.w3.org/2000/svg">
+<defs>
+  <linearGradient id="energy" x1="44" y1="24" x2="342" y2="338" gradientUnits="userSpaceOnUse">
+    <stop stop-color="#FF6B4A"/>
+    <stop offset="0.5" stop-color="#FFB35C"/>
+    <stop offset="1" stop-color="#B8F35A"/>
+  </linearGradient>
+  <radialGradient id="core" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(166 154) rotate(48) scale(82)">
+    <stop stop-color="#FFF7E8"/>
+    <stop offset="0.27" stop-color="#FFB35C"/>
+    <stop offset="0.67" stop-color="#FF6B4A"/>
+    <stop offset="1" stop-color="#D93D28"/>
+  </radialGradient>
+</defs>
+<g transform="translate(18 3) scale(.68)">
+  <path d="M256 246C212 204 180 162 159 112" stroke="url(#energy)" stroke-width="22" stroke-linecap="round"/>
+  <path d="M256 246C234 194 228 146 233 88" stroke="url(#energy)" stroke-width="22" stroke-linecap="round"/>
+  <path d="M256 246C277 194 296 150 332 103" stroke="url(#energy)" stroke-width="22" stroke-linecap="round"/>
+  <path d="M256 246C302 213 344 184 398 166" stroke="url(#energy)" stroke-width="22" stroke-linecap="round"/>
+  <path d="M256 246C307 260 352 283 398 322" stroke="url(#energy)" stroke-width="22" stroke-linecap="round"/>
+  <path d="M256 246C287 292 311 337 320 405" stroke="url(#energy)" stroke-width="22" stroke-linecap="round"/>
+  <path d="M256 246C232 297 211 345 189 415" stroke="url(#energy)" stroke-width="22" stroke-linecap="round"/>
+  <path d="M256 246C206 270 162 297 112 346" stroke="url(#energy)" stroke-width="22" stroke-linecap="round"/>
+  <circle cx="256" cy="246" r="66" fill="#0D0E0E" stroke="#FFF7E8" stroke-opacity=".18" stroke-width="2"/>
+  <circle cx="256" cy="246" r="38" fill="url(#core)"/>
+  <circle cx="244" cy="232" r="8" fill="#FFF7E8" fill-opacity=".92"/>
+</g>
+<text x="390" y="205" fill="#F3EFE5" font-family="Arial, Helvetica, sans-serif" font-size="116" font-weight="700" letter-spacing="18">OCTOPULT</text>
+<line x1="394" y1="247" x2="1264" y2="247" stroke="#F3EFE5" stroke-opacity=".16"/>
+<text x="394" y="288" fill="#AAA79E" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="500" letter-spacing="7">PROBLEM → POSSIBILITY → SYSTEM</text>
+</svg>

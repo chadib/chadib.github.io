@@ -1,0 +1,41 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="630" fill="#0D0E0E"/>
+  <defs>
+    <radialGradient id="halo" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(972 335) rotate(90) scale(280)">
+      <stop stop-color="#FF6B4A" stop-opacity=".10"/>
+      <stop offset="1" stop-color="#FF6B4A" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="energy" x1="875" y1="190" x2="1085" y2="495" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FF6B4A"/>
+      <stop offset=".52" stop-color="#FFB35C"/>
+      <stop offset="1" stop-color="#B8F35A"/>
+    </linearGradient>
+  </defs>
+  <circle cx="972" cy="335" r="280" fill="url(#halo)"/>
+  <line x1="80" y1="138" x2="1120" y2="138" stroke="#F3EFE5" stroke-opacity=".18"/>
+  <line x1="80" y1="586" x2="1120" y2="586" stroke="#FF6B4A" stroke-opacity=".7" stroke-width="2"/>
+
+  <g transform="translate(46 28) scale(.16)">
+    <path d="M256 246C212 204 180 162 159 112M256 246C234 194 228 146 233 88M256 246C277 194 296 150 332 103M256 246C302 213 344 184 398 166M256 246C307 260 352 283 398 322M256 246C287 292 311 337 320 405M256 246C232 297 211 345 189 415M256 246C206 270 162 297 112 346" stroke="url(#energy)" stroke-width="22" stroke-linecap="round"/>
+    <circle cx="256" cy="246" r="66" fill="#0D0E0E" stroke="#F3EFE5" stroke-opacity=".26" stroke-width="5"/>
+    <circle cx="256" cy="246" r="38" fill="#FF6B4A"/>
+    <circle cx="244" cy="232" r="8" fill="#FFF7E8"/>
+  </g>
+  <text x="150" y="92" fill="#F3EFE5" font-family="Arial, Helvetica, sans-serif" font-size="27" font-weight="700" letter-spacing="5">OCTOPULT</text>
+  <text x="858" y="84" fill="#AAA79E" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="700" letter-spacing="1">PROBLEM → POSSIBILITY → SYSTEM</text>
+
+  <text x="82" y="255" fill="#F3EFE5" font-family="Arial, Helvetica, sans-serif" font-size="72" font-weight="700" letter-spacing="-4">Dites-moi ce que</text>
+  <text x="82" y="336" fill="#F3EFE5" font-family="Arial, Helvetica, sans-serif" font-size="72" font-weight="700" letter-spacing="-4">vous voulez</text>
+  <text x="82" y="424" fill="#FF6B4A" font-family="Georgia, Times New Roman, serif" font-size="80" font-style="italic" letter-spacing="-4">rendre possible.</text>
+
+  <text x="84" y="510" fill="#AAA79E" font-family="Arial, Helvetica, sans-serif" font-size="20">Vous apportez le problème. Octopult cherche le chemin.</text>
+  <text x="84" y="548" fill="#F3EFE5" font-family="Arial, Helvetica, sans-serif" font-size="20">Chadi construit ce qui doit réellement fonctionner.</text>
+
+  <g>
+    <path d="M972 344L925 230M972 344L1018 208M972 344L1088 280M972 344L1112 360M972 344L1050 455M972 344L970 488M972 344L888 452M972 344L846 358" stroke="url(#energy)" stroke-width="6" stroke-linecap="round"/>
+    <circle cx="925" cy="230" r="6" fill="#FF6B4A"/><circle cx="1018" cy="208" r="6" fill="#FFB35C"/><circle cx="1088" cy="280" r="6" fill="#FFB35C"/><circle cx="1112" cy="360" r="6" fill="#B8F35A"/><circle cx="1050" cy="455" r="6" fill="#FFB35C"/><circle cx="970" cy="488" r="6" fill="#FF6B4A"/><circle cx="888" cy="452" r="6" fill="#FF6B4A"/><circle cx="846" cy="358" r="6" fill="#B8F35A"/>
+    <circle cx="972" cy="344" r="58" fill="#0D0E0E" stroke="#F3EFE5" stroke-opacity=".45" stroke-width="2"/>
+    <circle cx="972" cy="344" r="30" fill="#FF6B4A"/>
+    <circle cx="962" cy="334" r="6" fill="#FFF7E8"/>
+  </g>
+</svg>
