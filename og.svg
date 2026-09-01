@@ -1,48 +1,48 @@
 <svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg">
   <defs>
-    <radialGradient id="halo" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(963 318) rotate(90) scale(300)">
-      <stop stop-color="#6E5CFF" stop-opacity=".15"/>
-      <stop offset=".55" stop-color="#2D8CFF" stop-opacity=".06"/>
+    <radialGradient id="halo" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(965 320) rotate(90) scale(300)">
+      <stop stop-color="#6E5CFF" stop-opacity=".20"/>
+      <stop offset=".48" stop-color="#2D8CFF" stop-opacity=".08"/>
       <stop offset="1" stop-color="#06070A" stop-opacity="0"/>
     </radialGradient>
-    <linearGradient id="flow" x1="840" y1="165" x2="1100" y2="500" gradientUnits="userSpaceOnUse">
+    <linearGradient id="flow" x1="820" y1="135" x2="1110" y2="505" gradientUnits="userSpaceOnUse">
       <stop stop-color="#A450FF"/>
       <stop offset=".38" stop-color="#6E5CFF"/>
       <stop offset=".72" stop-color="#2D8CFF"/>
       <stop offset="1" stop-color="#4FE8E0"/>
     </linearGradient>
-    <linearGradient id="headline" x1="80" y1="360" x2="625" y2="420" gradientUnits="userSpaceOnUse">
+    <linearGradient id="headline" x1="82" y1="350" x2="720" y2="430" gradientUnits="userSpaceOnUse">
       <stop stop-color="#F5F7FA"/>
-      <stop offset=".5" stop-color="#9E94FF"/>
+      <stop offset=".5" stop-color="#8E83FF"/>
       <stop offset="1" stop-color="#4FE8E0"/>
     </linearGradient>
   </defs>
+
   <rect width="1200" height="630" fill="#06070A"/>
-  <circle cx="963" cy="318" r="300" fill="url(#halo)"/>
-  <line x1="80" y1="132" x2="1120" y2="132" stroke="#A7AFBF" stroke-opacity=".14"/>
-  <line x1="80" y1="584" x2="1120" y2="584" stroke="#4FE8E0" stroke-opacity=".38"/>
+  <circle cx="965" cy="320" r="300" fill="url(#halo)"/>
+  <line x1="80" y1="112" x2="1120" y2="112" stroke="#A7AFBF" stroke-opacity=".16"/>
+  <line x1="80" y1="574" x2="1120" y2="574" stroke="#6E5CFF" stroke-opacity=".44"/>
 
-  <text x="82" y="88" fill="#F5F7FA" font-family="Arial, Helvetica, sans-serif" font-size="27" font-weight="700" letter-spacing="5">OCTOPULT</text>
-  <text x="880" y="84" fill="#A7AFBF" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="700" letter-spacing="1.2">HUMAN-BUILT SYSTEMS</text>
+  <text x="82" y="78" fill="#F5F7FA" font-family="Arial, Helvetica, sans-serif" font-size="26" font-weight="700" letter-spacing="6">OCTOPULT</text>
+  <text x="826" y="78" fill="#788398" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="700" letter-spacing="2">PROBLEM → POSSIBILITY → SYSTEM</text>
 
-  <text x="82" y="250" fill="#F5F7FA" font-family="Arial, Helvetica, sans-serif" font-size="70" font-weight="700" letter-spacing="-4">Dites-moi ce que</text>
-  <text x="82" y="330" fill="#F5F7FA" font-family="Arial, Helvetica, sans-serif" font-size="70" font-weight="700" letter-spacing="-4">vous voulez</text>
-  <text x="82" y="414" fill="url(#headline)" font-family="Arial, Helvetica, sans-serif" font-size="76" font-weight="700" letter-spacing="-4">rendre possible.</text>
+  <text x="82" y="246" fill="#F5F7FA" font-family="Arial, Helvetica, sans-serif" font-size="70" font-weight="700" letter-spacing="-4">Dites-moi ce que</text>
+  <text x="82" y="324" fill="#F5F7FA" font-family="Arial, Helvetica, sans-serif" font-size="70" font-weight="700" letter-spacing="-4">vous voulez</text>
+  <text x="82" y="407" fill="url(#headline)" font-family="Arial, Helvetica, sans-serif" font-size="76" font-weight="700" letter-spacing="-4">rendre possible.</text>
 
-  <text x="84" y="502" fill="#A7AFBF" font-family="Arial, Helvetica, sans-serif" font-size="20">Vous apportez le problème. Octopult cherche le chemin.</text>
-  <text x="84" y="540" fill="#F5F7FA" font-family="Arial, Helvetica, sans-serif" font-size="20">Chadi construit ce qui doit réellement fonctionner.</text>
+  <text x="84" y="490" fill="#A7AFBF" font-family="Arial, Helvetica, sans-serif" font-size="19">Vous apportez le problème. Octopult fait émerger le système.</text>
+  <text x="84" y="528" fill="#F5F7FA" font-family="Arial, Helvetica, sans-serif" font-size="19">Chadi construit ce qui doit réellement fonctionner.</text>
 
-  <g stroke="url(#flow)" stroke-linecap="round" fill="none">
-    <path d="M965 315C923 282 890 239 867 187" stroke-width="8"/>
-    <path d="M974 307C960 258 964 218 983 171" stroke-width="7"/>
-    <path d="M984 309C1016 270 1050 244 1098 224" stroke-width="8"/>
-    <path d="M992 319C1040 313 1077 321 1118 345" stroke-width="7"/>
-    <path d="M988 330C1028 357 1057 390 1078 437" stroke-width="8"/>
-    <path d="M978 336C988 382 984 422 968 465" stroke-width="7"/>
-    <path d="M966 334C934 371 905 401 860 426" stroke-width="8"/>
-    <path d="M958 323C914 327 876 317 827 292" stroke-width="7"/>
+  <g transform="translate(770 62) scale(.74)" stroke="url(#flow)" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M256 78C305 78 333 112 322 151C312 186 278 205 256 239C234 205 200 186 190 151C179 112 207 78 256 78Z" stroke-width="24"/>
+    <path d="M221 224C190 219 177 193 151 190C125 187 105 204 108 229C111 251 136 262 155 247" stroke-width="22"/>
+    <path d="M217 244C181 249 164 273 136 276C108 279 88 298 96 323C104 347 134 351 154 331" stroke-width="22"/>
+    <path d="M225 264C194 281 181 309 157 326C133 343 132 370 153 384C174 398 199 386 208 363" stroke-width="21"/>
+    <path d="M239 276C220 307 213 340 218 374C222 403 242 423 263 416C284 409 288 383 279 359" stroke-width="20"/>
+    <path d="M291 224C322 219 335 193 361 190C387 187 407 204 404 229C401 251 376 262 357 247" stroke-width="22"/>
+    <path d="M295 244C331 249 348 273 376 276C404 279 424 298 416 323C408 347 378 351 358 331" stroke-width="22"/>
+    <path d="M287 264C318 281 331 309 355 326C379 343 380 370 359 384C338 398 313 386 304 363" stroke-width="21"/>
+    <path d="M273 276C292 307 299 340 294 374C290 403 270 423 249 416C228 409 224 383 233 359" stroke-width="20"/>
+    <circle cx="256" cy="146" r="10" fill="#F5F7FA" stroke="none"/>
   </g>
-  <circle cx="976" cy="323" r="58" fill="#0B0E15" stroke="#F5F7FA" stroke-opacity=".18" stroke-width="2"/>
-  <circle cx="976" cy="323" r="30" fill="#6E5CFF"/>
-  <circle cx="966" cy="313" r="6" fill="#F5F7FA"/>
 </svg>

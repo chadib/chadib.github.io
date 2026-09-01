@@ -1,26 +1,25 @@
 <svg width="1400" height="360" viewBox="0 0 1400 360" fill="none" xmlns="http://www.w3.org/2000/svg">
 <defs>
-  <linearGradient id="flow" x1="48" y1="36" x2="345" y2="326" gradientUnits="userSpaceOnUse">
+  <linearGradient id="g" x1="34" y1="24" x2="338" y2="330" gradientUnits="userSpaceOnUse">
     <stop stop-color="#A450FF"/>
-    <stop offset=".4" stop-color="#6E5CFF"/>
+    <stop offset=".38" stop-color="#6E5CFF"/>
     <stop offset=".72" stop-color="#2D8CFF"/>
     <stop offset="1" stop-color="#4FE8E0"/>
   </linearGradient>
 </defs>
-<g transform="translate(28 -5) scale(.69)" stroke="url(#flow)" stroke-linecap="round" fill="none">
-  <path d="M258 252C216 218 181 173 158 112" stroke-width="20"/>
-  <path d="M268 246C254 191 258 142 282 88" stroke-width="19"/>
-  <path d="M278 247C313 204 351 171 407 146" stroke-width="20"/>
-  <path d="M288 256C342 249 387 257 436 286" stroke-width="19"/>
-  <path d="M283 268C329 300 364 340 389 397" stroke-width="20"/>
-  <path d="M272 276C282 330 278 378 258 430" stroke-width="19"/>
-  <path d="M258 274C221 318 187 355 134 385" stroke-width="20"/>
-  <path d="M250 262C198 267 153 254 96 225" stroke-width="19"/>
-  <circle cx="270" cy="260" r="67" fill="#0B0E15" stroke="#F5F7FA" stroke-opacity=".18" stroke-width="2"/>
-  <circle cx="270" cy="260" r="38" fill="#6E5CFF" stroke="none"/>
-  <circle cx="257" cy="246" r="7.5" fill="#F5F7FA" stroke="none"/>
+<g transform="translate(18 -8) scale(.70)" stroke="url(#g)" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path d="M256 78C305 78 333 112 322 151C312 186 278 205 256 239C234 205 200 186 190 151C179 112 207 78 256 78Z" stroke-width="24"/>
+  <path d="M221 224C190 219 177 193 151 190C125 187 105 204 108 229C111 251 136 262 155 247" stroke-width="22"/>
+  <path d="M217 244C181 249 164 273 136 276C108 279 88 298 96 323C104 347 134 351 154 331" stroke-width="22"/>
+  <path d="M225 264C194 281 181 309 157 326C133 343 132 370 153 384C174 398 199 386 208 363" stroke-width="21"/>
+  <path d="M239 276C220 307 213 340 218 374C222 403 242 423 263 416C284 409 288 383 279 359" stroke-width="20"/>
+  <path d="M291 224C322 219 335 193 361 190C387 187 407 204 404 229C401 251 376 262 357 247" stroke-width="22"/>
+  <path d="M295 244C331 249 348 273 376 276C404 279 424 298 416 323C408 347 378 351 358 331" stroke-width="22"/>
+  <path d="M287 264C318 281 331 309 355 326C379 343 380 370 359 384C338 398 313 386 304 363" stroke-width="21"/>
+  <path d="M273 276C292 307 299 340 294 374C290 403 270 423 249 416C228 409 224 383 233 359" stroke-width="20"/>
+  <circle cx="256" cy="146" r="10" fill="#F5F7FA" stroke="none"/>
 </g>
-<text x="395" y="202" fill="#F5F7FA" font-family="Arial, Helvetica, sans-serif" font-size="112" font-weight="700" letter-spacing="17">OCTOPULT</text>
-<line x1="399" y1="242" x2="1262" y2="242" stroke="#A7AFBF" stroke-opacity=".17"/>
-<text x="399" y="286" fill="#A7AFBF" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="500" letter-spacing="6">HUMAN-BUILT SYSTEMS</text>
+<text x="390" y="198" fill="#F5F7FA" font-family="Arial, Helvetica, sans-serif" font-size="116" font-weight="700" letter-spacing="18">OCTOPULT</text>
+<line x1="394" y1="238" x2="1264" y2="238" stroke="#A7AFBF" stroke-opacity=".16"/>
+<text x="394" y="284" fill="#8D96A8" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="500" letter-spacing="7">PROBLEM → POSSIBILITY → SYSTEM</text>
 </svg>
