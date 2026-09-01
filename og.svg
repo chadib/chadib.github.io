@@ -1,57 +1,54 @@
-<svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg">
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" fill="none" role="img" aria-labelledby="title desc">
+  <title id="title">Octopult — Du problème au système</title>
+  <desc id="desc">Carte sociale sombre avec la nouvelle identité Octopult et huit flux orchestrés.</desc>
   <defs>
-    <radialGradient id="halo" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(965 320) rotate(90) scale(300)">
-      <stop stop-color="#6E5CFF" stop-opacity=".20"/>
-      <stop offset=".48" stop-color="#2D8CFF" stop-opacity=".08"/>
-      <stop offset="1" stop-color="#06070A" stop-opacity="0"/>
-    </radialGradient>
-    <linearGradient id="flow" x1="820" y1="135" x2="1110" y2="505" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#A450FF"/>
-      <stop offset=".38" stop-color="#6E5CFF"/>
-      <stop offset=".72" stop-color="#2D8CFF"/>
-      <stop offset="1" stop-color="#4FE8E0"/>
+    <linearGradient id="og-flow" x1="620" y1="95" x2="1120" y2="545" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#A450FF"/><stop offset=".38" stop-color="#6E5CFF"/><stop offset=".72" stop-color="#2D8CFF"/><stop offset="1" stop-color="#4FE8E0"/>
     </linearGradient>
-    <radialGradient id="head" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(226 117) rotate(49) scale(190 164)">
-      <stop stop-color="#F5F7FA" stop-opacity=".72"/>
-      <stop offset=".13" stop-color="#A450FF" stop-opacity=".92"/>
-      <stop offset=".48" stop-color="#6E5CFF" stop-opacity=".92"/>
-      <stop offset=".78" stop-color="#2D8CFF" stop-opacity=".88"/>
-      <stop offset="1" stop-color="#172044"/>
-    </radialGradient>
-    <linearGradient id="headline" x1="82" y1="350" x2="720" y2="430" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#F5F7FA"/>
-      <stop offset=".5" stop-color="#8E83FF"/>
-      <stop offset="1" stop-color="#4FE8E0"/>
+    <linearGradient id="og-edge" x1="755" y1="118" x2="1030" y2="500" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F5F7FA" stop-opacity=".72"/><stop offset=".32" stop-color="#B9AFFF" stop-opacity=".46"/><stop offset="1" stop-color="#4FE8E0" stop-opacity=".15"/>
     </linearGradient>
+    <radialGradient id="og-aura" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(930 300) rotate(90) scale(300 360)">
+      <stop stop-color="#6E5CFF" stop-opacity=".18"/><stop offset=".5" stop-color="#2D8CFF" stop-opacity=".055"/><stop offset="1" stop-color="#06070A" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="og-blur" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="13"/></filter>
+    <mask id="og-aperture">
+      <rect width="1200" height="630" fill="black"/>
+      <path d="M913 120C1019 120 1091 200 1082 306C1073 407 996 495 894 504C804 512 728 452 719 363C710 267 766 184 852 140C871 130 892 122 913 120Z" fill="white"/>
+      <path d="M912 230C965 228 1007 266 1006 317C1005 365 965 406 916 411C870 415 833 383 829 339C825 291 862 245 912 230Z" fill="black"/>
+    </mask>
   </defs>
 
   <rect width="1200" height="630" fill="#06070A"/>
-  <circle cx="965" cy="320" r="300" fill="url(#halo)"/>
-  <line x1="80" y1="112" x2="1120" y2="112" stroke="#A7AFBF" stroke-opacity=".16"/>
-  <line x1="80" y1="574" x2="1120" y2="574" stroke="#6E5CFF" stroke-opacity=".44"/>
+  <rect x="32" y="32" width="1136" height="566" rx="28" fill="#0B0E15" stroke="#171B26"/>
+  <circle cx="930" cy="300" r="360" fill="url(#og-aura)"/>
+  <path d="M600 32V598" stroke="#A7AFBF" stroke-opacity=".1"/>
+  <path d="M32 500H1168" stroke="#A7AFBF" stroke-opacity=".1"/>
 
-  <text x="82" y="78" fill="#F5F7FA" font-family="Arial, Helvetica, sans-serif" font-size="26" font-weight="700" letter-spacing="6">OCTOPULT</text>
-  <text x="826" y="78" fill="#788398" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="700" letter-spacing="2">PROBLEM → POSSIBILITY → SYSTEM</text>
-
-  <text x="82" y="246" fill="#F5F7FA" font-family="Arial, Helvetica, sans-serif" font-size="70" font-weight="700" letter-spacing="-4">Dites-moi ce que</text>
-  <text x="82" y="324" fill="#F5F7FA" font-family="Arial, Helvetica, sans-serif" font-size="70" font-weight="700" letter-spacing="-4">vous voulez</text>
-  <text x="82" y="407" fill="url(#headline)" font-family="Arial, Helvetica, sans-serif" font-size="76" font-weight="700" letter-spacing="-4">rendre possible.</text>
-
-  <text x="84" y="490" fill="#A7AFBF" font-family="Arial, Helvetica, sans-serif" font-size="19">Vous apportez le problème. Octopult fait émerger le système.</text>
-  <text x="84" y="528" fill="#F5F7FA" font-family="Arial, Helvetica, sans-serif" font-size="19">Chadi construit ce qui doit réellement fonctionner.</text>
-
-  <g transform="translate(770 62) scale(.74)">
-    <path d="M256 82C309 82 340 119 335 166C332 199 317 225 293 244C281 253 273 264 270 280H242C239 264 231 253 219 244C195 225 180 199 177 166C172 119 203 82 256 82Z" fill="url(#head)"/>
-    <g stroke="url(#flow)" fill="none" stroke-linecap="round" stroke-linejoin="round">
-      <path d="M221 224C190 219 177 193 151 190C125 187 105 204 108 229C111 251 136 262 155 247" stroke-width="22"/>
-      <path d="M217 244C181 249 164 273 136 276C108 279 88 298 96 323C104 347 134 351 154 331" stroke-width="22"/>
-      <path d="M225 264C194 281 181 309 157 326C133 343 132 370 153 384C174 398 199 386 208 363" stroke-width="21"/>
-      <path d="M239 276C220 307 213 340 218 374C222 403 242 423 263 416C284 409 288 383 279 359" stroke-width="20"/>
-      <path d="M291 224C322 219 335 193 361 190C387 187 407 204 404 229C401 251 376 262 357 247" stroke-width="22"/>
-      <path d="M295 244C331 249 348 273 376 276C404 279 424 298 416 323C408 347 378 351 358 331" stroke-width="22"/>
-      <path d="M287 264C318 281 331 309 355 326C379 343 380 370 359 384C338 398 313 386 304 363" stroke-width="21"/>
-      <path d="M273 276C292 307 299 340 294 374C290 403 270 423 249 416C228 409 224 383 233 359" stroke-width="20"/>
-    </g>
-    <circle cx="256" cy="166" r="10" fill="#4FE8E0"/>
+  <g transform="translate(82 78) scale(.58)">
+    <path d="M49 12C70 12 84 28 81 48C78 68 60 82 40 79C22 76 11 61 15 44C19 27 35 17 51 18" stroke="url(#og-flow)" stroke-width="13" stroke-linecap="round"/>
+    <path d="M27 68C37 57 46 50 57 44C68 37 77 27 88 12" stroke="url(#og-flow)" stroke-width="8" stroke-linecap="square"/>
+    <path d="M38 49C42 43 50 40 56 43C62 46 64 53 60 59C56 65 48 67 42 63" stroke="#F5F7FA" stroke-width="3" stroke-linecap="round"/>
   </g>
+  <text x="152" y="119" fill="#F5F7FA" font-family="Inter, Helvetica Neue, Arial, sans-serif" font-size="21" font-weight="760" letter-spacing="5">OCTOPULT</text>
+  <text x="84" y="205" fill="#8174FF" font-family="JetBrains Mono, Menlo, monospace" font-size="13" font-weight="600" letter-spacing="2.2">STUDIO DE SYSTÈMES INTELLIGENTS</text>
+  <text x="82" y="286" fill="#F5F7FA" font-family="Inter, Helvetica Neue, Arial, sans-serif" font-size="57" font-weight="700" letter-spacing="-3.3">
+    <tspan x="82" dy="0">Dites le problème.</tspan>
+    <tspan x="82" dy="66" fill="#BEB6FF">Nous construisons</tspan>
+    <tspan x="82" dy="66" fill="#6FCBFF">le système.</tspan>
+  </text>
+  <text x="84" y="548" fill="#A7AFBF" font-family="Inter, Helvetica Neue, Arial, sans-serif" font-size="17">FRICTION  →  DIRECTION  →  SYSTÈME</text>
+
+  <g stroke="url(#og-flow)" stroke-width="10" stroke-linecap="square" opacity=".84">
+    <path d="M650 120C739 139 773 222 858 269"/><path d="M631 209C733 212 786 257 860 294"/><path d="M633 313C744 311 793 322 858 327"/><path d="M671 484C760 450 798 391 870 359"/>
+    <path d="M971 254C1035 216 1080 164 1140 116"/><path d="M986 286C1055 270 1098 243 1156 229"/><path d="M989 320C1052 330 1106 324 1160 330"/><path d="M972 352C1043 394 1095 442 1142 492"/>
+  </g>
+  <g stroke="url(#og-flow)" stroke-width="25" stroke-linecap="round" opacity=".06" filter="url(#og-blur)">
+    <path d="M650 120C739 139 773 222 858 269"/><path d="M631 209C733 212 786 257 860 294"/><path d="M633 313C744 311 793 322 858 327"/><path d="M671 484C760 450 798 391 870 359"/>
+    <path d="M971 254C1035 216 1080 164 1140 116"/><path d="M986 286C1055 270 1098 243 1156 229"/><path d="M989 320C1052 330 1106 324 1160 330"/><path d="M972 352C1043 394 1095 442 1142 492"/>
+  </g>
+  <path d="M913 120C1019 120 1091 200 1082 306C1073 407 996 495 894 504C804 512 728 452 719 363C710 267 766 184 852 140C871 130 892 122 913 120Z" fill="url(#og-flow)" fill-opacity=".68" mask="url(#og-aperture)"/>
+  <path d="M804 149C858 111 938 112 1001 151C1053 183 1085 241 1082 302" stroke="url(#og-edge)" stroke-width="5" stroke-linecap="round"/>
+  <path d="M912 230C965 228 1007 266 1006 317C1005 365 965 406 916 411C870 415 833 383 829 339C825 291 862 245 912 230Z" stroke="url(#og-flow)" stroke-width="4"/>
+  <circle cx="915" cy="319" r="6" fill="#F5F7FA"/>
 </svg>

@@ -1,16 +1,16 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 430 96" fill="none" role="img" aria-labelledby="title desc">
-  <title id="title">Octopult</title><desc id="desc">Logo Octopult, une boucle ouverte traversée par un flux ascendant.</desc>
+  <title id="title">Octopult</title><desc id="desc">Logo Octopult pour fond clair, une boucle ouverte traversée par un flux ascendant.</desc>
   <defs>
     <linearGradient id="logo-flow" x1="15" y1="80" x2="88" y2="10" gradientUnits="userSpaceOnUse">
       <stop stop-color="#A450FF"/><stop offset=".38" stop-color="#6E5CFF"/><stop offset=".72" stop-color="#2D8CFF"/><stop offset="1" stop-color="#4FE8E0"/>
     </linearGradient>
     <linearGradient id="logo-edge" x1="26" y1="27" x2="75" y2="69" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#F5F7FA" stop-opacity=".9"/><stop offset=".42" stop-color="#B9B0FF" stop-opacity=".5"/><stop offset="1" stop-color="#4FE8E0" stop-opacity=".12"/>
+      <stop stop-color="#06070A" stop-opacity=".72"/><stop offset=".42" stop-color="#6E5CFF" stop-opacity=".48"/><stop offset="1" stop-color="#2D8CFF" stop-opacity=".12"/>
     </linearGradient>
   </defs>
   <path d="M49 12C70 12 84 28 81 48C78 68 60 82 40 79C22 76 11 61 15 44C19 27 35 17 51 18" stroke="url(#logo-flow)" stroke-width="13" stroke-linecap="round"/>
   <path d="M27 68C37 57 46 50 57 44C68 37 77 27 88 12" stroke="url(#logo-flow)" stroke-width="8" stroke-linecap="square"/>
   <path d="M27 28C38 17 55 15 68 23C77 29 82 38 81 47" stroke="url(#logo-edge)" stroke-width="2.5" stroke-linecap="round"/>
-  <path d="M38 49C42 43 50 40 56 43C62 46 64 53 60 59C56 65 48 67 42 63" stroke="#F5F7FA" stroke-opacity=".88" stroke-width="3" stroke-linecap="round"/>
-  <text x="124" y="61" fill="#F5F7FA" font-family="Inter, Helvetica Neue, Arial, sans-serif" font-size="34" font-weight="760" letter-spacing="7">OCTOPULT</text>
+  <path d="M38 49C42 43 50 40 56 43C62 46 64 53 60 59C56 65 48 67 42 63" stroke="#06070A" stroke-opacity=".82" stroke-width="3" stroke-linecap="round"/>
+  <text x="124" y="61" fill="#06070A" font-family="Inter, Helvetica Neue, Arial, sans-serif" font-size="34" font-weight="760" letter-spacing="7">OCTOPULT</text>
 </svg>
